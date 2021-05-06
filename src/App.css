@@ -12,7 +12,7 @@ body {
 
 .App {
  min-height: 100vh;
- background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+ background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
 }
 
 h1 {
