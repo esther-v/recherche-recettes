@@ -10,12 +10,17 @@ body {
  
 }
 
+h1 {
+  padding: 3% 5%;
+  color: rgb(63, 81, 99);
+}
+
 .App {
  min-height: 100vh;
  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
 }
 
-h1 {
+h2 {
   margin: 20px;
 }
 

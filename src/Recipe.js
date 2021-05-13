@@ -5,7 +5,7 @@ const Recipe = ({title,calories,image,ingredients}) => {
     const cal = Math.floor(calories)
     return(
         <div className={style.recipe}>
-            <h1>{title}</h1>
+            <h2>{title}</h2>
             <ul>
                 {ingredients.map(ingredient =>(
                     <li>{ingredient.text}</li>
