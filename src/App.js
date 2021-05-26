@@ -7,7 +7,6 @@ const APP_ID = process.env.REACT_APP_ID;
 const APP_KEY = process.env.REACT_APP_KEY;
 
 const App = () => {
-  
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
@@ -35,7 +34,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Find the recipe you want</h1>
+      <h1>Find the recipe you like 💙</h1>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
         <button className="search-button" type="submit">Search</button>
