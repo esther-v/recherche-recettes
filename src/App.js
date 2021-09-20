@@ -3,8 +3,9 @@ import Recipe from './Recipe';
 import './App.css';
 
 
-const APP_ID = process.env.REACT_APP_ID;
-const APP_KEY = process.env.REACT_APP_KEY;
+const APP_ID = 'a6bf8b4a';
+const APP_KEY = 'cfa537239e6e3ec963982371d803b7c9';
+
 
 const App = () => {
 
