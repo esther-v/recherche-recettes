@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Recipe from './Recipe';
 import './App.css';
 
+
 require('dotenv').config();
 const APP_ID = process.env.REACT_APP_ID;
 const APP_KEY = process.env.REACT_APP_KEY;
@@ -35,7 +36,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Find the recipe you like 💙</h1>
+      <h1>Find your favorite recipes </h1>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
         <button className="search-button" type="submit">Search</button>
