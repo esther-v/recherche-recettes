@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Recipe from './Recipe';
 import './App.css';
+import logo from './foodies.png'
 
 
 require('dotenv').config();
@@ -36,7 +37,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Find your favorite recipes </h1>
+      <h1><img alt="food" src={logo}></img>  <br/> Find your favorite recipes </h1>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch}/>
         <button className="search-button" type="submit">Search</button>
